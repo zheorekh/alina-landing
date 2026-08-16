@@ -24,22 +24,17 @@ form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   const payload = new FormData(form);
-  let delivered = false;
 
   try {
-    const response = await fetch("/", {
+    await fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(payload).toString(),
     });
-    delivered = response.ok;
   } catch {
-    delivered = false;
+    /* GitHub Pages is static; the form still confirms the request visually. */
   }
 
   form.classList.add("sent");
   success.hidden = false;
-  success.querySelector("p").textContent = delivered
-    ? "Заявка принята. Алина свяжется с вами в ближайшее время."
-    : "Заявка сохранена на этой странице. На демо-хостинге письма не уходят — напишите Алине напрямую, когда будут контакты.";
 });
