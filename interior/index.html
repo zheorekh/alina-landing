@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Алина — студия интерьера</title>
+  <meta name="description" content="Дизайн жилых и камерных коммерческих интерьеров. Полный проект, комплектация и авторский надзор." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <a class="logo" href="#top">
+      <svg viewBox="0 0 28 28" aria-hidden="true">
+        <rect x="3.5" y="3.5" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path d="M3.5 18.5h21M14 3.5v21" fill="none" stroke="currentColor" stroke-width="1"/>
+      </svg>
+      <span>Алина</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#studio">Студия</a>
+      <a href="#services">Услуги</a>
+      <a href="#projects">Проекты</a>
+      <a href="#process">Процесс</a>
+      <a href="#contact" class="nav-cta">Обсудить объект</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Студия интерьера</p>
+        <h1>Пространства,<br />в которых хочется<br />остаться</h1>
+        <p class="hero-text">
+          Проектирую жилые интерьеры с тихим характером: свет, материал и точная пропорция важнее декора.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="#contact">Запросить консультацию</a>
+          <a class="btn btn-line" href="#projects">Смотреть проекты</a>
+        </div>
+        <ul class="hero-meta">
+          <li>Квартиры и дома</li>
+          <li>Москва и дистанционно</li>
+          <li>Под ключ</li>
+        </ul>
+      </div>
+      <figure class="hero-photo">
+        <img src="images/alina-interior-hero.jpg" alt="Алина — дизайнер интерьера" />
+        <figcaption>Алина · автор студии</figcaption>
+      </figure>
+    </section>
+
+    <section class="strip">
+      <p>Известняк · Лён · Дуб · Латунь · Тишина</p>
+    </section>
+
+    <section class="studio" id="studio">
+      <div class="studio-photos">
+        <img class="studio-main" src="images/alina-in-space.jpg" alt="Алина в завершённом интерьере" />
+        <img class="studio-side" src="images/alina-interior-portrait.jpg" alt="Портрет Алины" />
+      </div>
+      <div class="studio-copy">
+        <p class="eyebrow">О студии</p>
+        <h2>Интерьер как костюм — по фигуре жизни</h2>
+        <p>
+          Я не собираю комнаты из трендов. Сначала слушаю, как вы живёте: где завтракаете,
+          куда падает свет в четыре часа, что должно исчезнуть из поля зрения.
+        </p>
+        <p>
+          Классическая основа, современные пропорции, тактильные материалы.
+          Результат — пространство, которое выглядит дорого и живётся спокойно.
+        </p>
+        <dl class="facts">
+          <div>
+            <dt>Формат</dt>
+            <dd>Полный дизайн-проект и реализация</dd>
+          </div>
+          <div>
+            <dt>Фокус</dt>
+            <dd>Жилые интерьеры 60–250 м²</dd>
+          </div>
+          <div>
+            <dt>Подход</dt>
+            <dd>Мало предметов — много воздуха</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-head">
+        <p class="eyebrow">Услуги</p>
+        <h2>Как можем работать</h2>
+      </div>
+      <div class="service-list">
+        <article>
+          <span>01</span>
+          <div>
+            <h3>Дизайн-проект</h3>
+            <p>Планировка, коллажи, рабочие чертежи, спецификация материалов и света. Документ, по которому можно строить.</p>
+          </div>
+          <p class="fee">от 6 000 ₽/м²</p>
+        </article>
+        <article>
+          <span>02</span>
+          <div>
+            <h3>Комплектация</h3>
+            <p>Мебель, свет, текстиль, сантехника и искусство — с подбором, сроками и сметой без хаоса закупок.</p>
+          </div>
+          <p class="fee">от 4 000 ₽/м²</p>
+        </article>
+        <article>
+          <span>03</span>
+          <div>
+            <h3>Авторский надзор</h3>
+            <p>Выезды на объект, сверка узлов, защита решений. Чтобы проект не «поплыл» на стройке.</p>
+          </div>
+          <p class="fee">от 80 000 ₽/мес</p>
+        </article>
+        <article>
+          <span>04</span>
+          <div>
+            <h3>Стайлинг</h3>
+            <p>Финальный слой: декор, посуда, книги, текстиль. Для готового ремонта, съёмки или продажи.</p>
+          </div>
+          <p class="fee">от 120 000 ₽</p>
+        </article>
+        <article>
+          <span>05</span>
+          <div>
+            <h3>Камерная коммерция</h3>
+            <p>Кабинеты, шоурумы, апартаменты для аренды. Та же тишина и точность, что в жилых проектах.</p>
+          </div>
+          <p class="fee">по запросу</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="materials">
+      <div class="materials-copy">
+        <p class="eyebrow">Материал</p>
+        <h2>Сначала касание, потом картинка</h2>
+        <p>Каждый проект начинается с образцов: камень, дерево, металл, ткань. Цвет выбирается при дневном свете, фурнитура — в руке, а не на экране.</p>
+      </div>
+      <div class="materials-photos">
+        <img src="images/alina-materials.jpg" alt="Алина подбирает ткани и образцы" />
+        <img src="images/materials-still.jpg" alt="Образцы камня, латуни и льна" />
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-head spread">
+        <div>
+          <p class="eyebrow">Избранное</p>
+          <h2>Недавние пространства</h2>
+        </div>
+        <p class="section-note">Жилые интерьеры в спокойной палитре. Названия условные — для демонстрации студии.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project tall">
+          <img src="images/project-living.jpg" alt="Гостиная с изогнутым диваном" />
+          <div>
+            <h3>Гостиная. Светлый объём</h3>
+            <p>Травертин, лён, одна скульптурная лампа</p>
+          </div>
+        </article>
+        <article class="project">
+          <img src="images/project-kitchen.jpg" alt="Кухня из дуба и камня" />
+          <div>
+            <h3>Кухня. Дуб и камень</h3>
+            <p>Тихий рабочий ритуал</p>
+          </div>
+        </article>
+        <article class="project">
+          <img src="images/project-bedroom.jpg" alt="Спальня в мягких нейтральных тонах" />
+          <div>
+            <h3>Спальня. Мягкий ритм</h3>
+            <p>Отель, в котором живут</p>
+          </div>
+        </article>
+        <article class="project wide">
+          <img src="images/project-dining.jpg" alt="Столовая с длинным столом из ореха" />
+          <div>
+            <h3>Столовая. Длинный стол</h3>
+            <p>Место, где вечер не спешит</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="section-head">
+        <p class="eyebrow">Процесс</p>
+        <h2>От брифа до ключей</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Бриф и замеры</h3>
+          <p>Разговор о жизни в доме, ограничениях, бюджете. Затем точные размеры и фото объекта.</p>
+        </li>
+        <li>
+          <h3>Концепция</h3>
+          <p>Планировка, коллажи, палитра. Согласовываем характер пространства, пока он ещё на бумаге.</p>
+        </li>
+        <li>
+          <h3>Проект</h3>
+          <p>Чертежи, узлы, свет, спецификация. Файл, с которым строители и снабжение работают без догадок.</p>
+        </li>
+        <li>
+          <h3>Реализация</h3>
+          <p>Надзор, комплектация, стайлинг. Сдаю интерьер готовым к жизни, а не «почти».</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="reviews">
+      <div class="section-head">
+        <p class="eyebrow">После сдачи</p>
+        <h2>Как это ощущается</h2>
+      </div>
+      <div class="review-grid">
+        <blockquote>
+          <p>«Хотела “дорого и спокойно”. Получила квартиру, в которой не хочется ничего двигать. Редкое чувство.»</p>
+          <cite>Ирина · 92 м², Москва</cite>
+        </blockquote>
+        <blockquote>
+          <p>«Алина держит и вкус, и стройку. Смета не разъехалась, узлы не потерялись, свет сел как в коллаже.»</p>
+          <cite>Павел · 140 м², загородный дом</cite>
+        </blockquote>
+        <blockquote>
+          <p>«Никакого визуального шума. Материалы выбраны так, что через год ничего не хочется заменить.»</p>
+          <cite>Софья · 78 м², апартаменты</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Заявка</p>
+        <h2>Расскажите про объект</h2>
+        <p>Коротко опишите квартиру, дом или коммерческое пространство. Я отвечу, подходит ли формат, и предложу созвон.</p>
+        <ul>
+          <li>Ответ в течение 1–2 рабочих дней</li>
+          <li>Первая консультация — 30 минут</li>
+          <li>Работаю по договору</li>
+        </ul>
+        <img src="images/alina-classic.png" alt="Алина" />
+      </div>
+      <form class="form" id="consultForm" name="interior" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="interior" />
+        <p class="hidden">
+          <label>Не заполняйте: <input name="bot-field" /></label>
+        </p>
+        <label>
+          <span>Имя</span>
+          <input type="text" name="name" required placeholder="Как к вам обращаться" autocomplete="name" />
+        </label>
+        <label>
+          <span>Telegram / телефон</span>
+          <input type="text" name="contact" required placeholder="@username или +7…" autocomplete="tel" />
+        </label>
+        <div class="form-row">
+          <label>
+            <span>Тип объекта</span>
+            <select name="type" required>
+              <option value="" disabled selected>Выберите</option>
+              <option>Квартира</option>
+              <option>Дом</option>
+              <option>Апартаменты</option>
+              <option>Кабинет / шоурум</option>
+              <option>Другое</option>
+            </select>
+          </label>
+          <label>
+            <span>Площадь, м²</span>
+            <input type="text" name="area" placeholder="например, 86" />
+          </label>
+        </div>
+        <label>
+          <span>О объекте</span>
+          <textarea name="message" rows="5" required placeholder="Город, стадия (черновая / жилой ремонт), что важно получить"></textarea>
+        </label>
+        <button class="btn btn-dark btn-full" type="submit">Отправить заявку</button>
+        <p class="form-note">Данные нужны только для связи по проекту.</p>
+        <div class="form-success" id="formSuccess" hidden>
+          <p>Заявка принята. Алина ответит в ближайшие рабочие дни.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>Алина</strong>
+    <p>Студия интерьера. Демонстрационная страница.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
